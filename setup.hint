@@ -1,0 +1,13 @@
+category: Audio Gnome
+requires: perl perl-Glib perl-Gtk2 perl-MP3-Info cdrkit faac flac lame mpg321 musepack-tools normalize vorbis-tools
+sdesc: "GTK+ frontend for normalize and other audio tools"
+ldesc: "gnormalize can be used to adjust the volume of audio files to a 
+standard volume level, where different recording levels on different 
+albums can cause the volume to vary greatly from song to song.
+
+gnormalize decodes the MP3/MP4/MPC/OGG/APE/FLAC file to WAV, then
+normalizes the WAV to a targeted volume level and re-encodes it.
+gnormalize can also convert audio format between MP3, MP4, MPC, OGG, APE
+and FLAC with high fidelity, which meets your need to play and collect
+audio files. It can change the encoding and Metadata (tag) properties of
+final normalized files."
