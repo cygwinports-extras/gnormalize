@@ -12,9 +12,9 @@ audio files. It can change the encoding and Metadata (tag) properties of
 final normalized files.
 
 Runtime requirements:
-  perl-5.8.7-5
-  perl-Glib-1.144-1
-  perl-Gtk2-1.146-1
+  perl-5.8.8-4
+  perl-Glib-1.162-1
+  perl-Gtk2-1.162-1
   perl-MP3-Info-1.20-1
   cdrkit
   faac
@@ -34,24 +34,24 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnormalize-0.52-X-src.tar.bz2
+  unpack gnormalize-0.53-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnormalize-0.52-X.cygport all
+  cygport ./gnormalize-0.53-X.cygport all
 
 This will create:
-  /usr/src/gnormalize-0.52-X-src.tar.bz2
-  /usr/src/gnormalize-0.52-X.tar.bz2
+  /usr/src/gnormalize-0.53-X-src.tar.bz2
+  /usr/src/gnormalize-0.53-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/gnormalize
-  /usr/share/doc/Cygwin/gnormalize-0.52.README
-  /usr/share/doc/gnormalize-0.52/INSTALL
-  /usr/share/doc/gnormalize-0.52/README
+  /usr/share/doc/Cygwin/gnormalize-0.53.README
+  /usr/share/doc/gnormalize-0.53/INSTALL
+  /usr/share/doc/gnormalize-0.53/README
   /usr/share/gnormalize/README
   /usr/share/gnormalize/animations/dancing_penguin.gif
   /usr/share/gnormalize/animations/penguin_and_camel.gif
@@ -70,6 +70,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.53-1 -----
+Version bump.
 
 ----- version 0.52-1 -----
 Initial release for Cygwin.
