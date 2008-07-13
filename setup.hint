@@ -1,5 +1,5 @@
 category: Audio Gnome
-requires: perl perl-Glib perl-Gtk2 perl-MP3-Info cdrkit faac flac lame mpg321 musepack-tools normalize vorbis-tools
+requires: perl perl-Glib perl-Gtk2 perl-MP3-Info cdrkit faac flac lame mpg321 musepack-tools vorbis-tools wavegain
 sdesc: "GTK+ frontend for normalize and other audio tools"
 ldesc: "gnormalize can be used to adjust the volume of audio files to a 
 standard volume level, where different recording levels on different 

@@ -12,9 +12,9 @@ audio files. It can change the encoding and Metadata (tag) properties of
 final normalized files.
 
 Runtime requirements:
-  perl-5.10.0-3
-  perl-Glib-1.182-1
-  perl-Gtk2-1.182-1
+  perl-5.10.0-5
+  perl-Glib-1.183-1
+  perl-Gtk2-1.183-1
   perl-MP3-Info-1.23-2
   cdrkit
   faac
@@ -22,8 +22,8 @@ Runtime requirements:
   lame
   mpg321 (or madplay)
   musepack-tools
-  normalize
   vorbis-tools
+  wavegain
 
 Canonical website:
   http://gnormalize.sourceforge.net/
@@ -34,23 +34,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnormalize-0.60-X-src.tar.bz2
+  unpack gnormalize-0.63-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnormalize-0.60-X.cygport all
+  cygport ./gnormalize-0.63-X.cygport all
 
 This will create:
-  /usr/src/gnormalize-0.60-X-src.tar.bz2
-  /usr/src/gnormalize-0.60-X.tar.bz2
+  /usr/src/gnormalize-0.63-X-src.tar.bz2
+  /usr/src/gnormalize-0.63-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/gnormalize
-  /usr/share/doc/gnormalize-0.60/INSTALL
-  /usr/share/doc/gnormalize-0.60/README
+  /usr/share/doc/gnormalize-0.63/INSTALL
+  /usr/share/doc/gnormalize-0.63/README
   /usr/share/gnormalize/README
   /usr/share/gnormalize/animations/dancing_penguin.gif
   /usr/share/gnormalize/animations/penguin_and_camel.gif
@@ -69,6 +69,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.63-1 -----
+Version bump.
 
 ----- version 0.60-1 -----
 Version bump.
